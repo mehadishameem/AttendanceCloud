@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:background="@color/material_dynamic_primary50"
+        android:textColor="@color/black"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:background="#fffff">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:padding="16dp"
+            android:background="#fffff">
+            <TableRow>
+                <TextView
+                    android:text="Name"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:text=":"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="4dp"/>
+                <EditText
+                    android:layout_weight="1"
+                    android:inputType="textCapWords"
+                    android:maxLength="8"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Gmail"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+                <TextView android:text=":"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="4dp"/>
+                <EditText
+                    android:inputType="textCapWords"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <CheckBox android:text="Remaber user"/>
+            <CheckBox android:text="Remember pass"/>
+"
+
+        </TableLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Instructor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:text="Student"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
