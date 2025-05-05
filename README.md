@@ -1,2 +1,2 @@
-# CSE48920243
+# This is a Remote Student Attendance App
  
